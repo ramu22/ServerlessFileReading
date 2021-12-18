@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ablation3D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <link type="text/css" rel="stylesheet" href="menu.css">
+</head>
+
+<nav>
+    <select name="file" id="file-select">
+    </select>
+    <select name="folder" id="file-select" hidden>
+    </select>
+</nav>
+
+
+<body>
+    <div class="main">
+        <div>
+            <canvas id="container"></canvas>
+            <div id="stats"></div>
+        </div>
+
+        <div id="debug">
+            <div>u: <span id="x"></span></div>
+            <div>v: <span id="y"></span></div>
+            <div>verts: <span id="z"></span></div>
+        </div>   
+    </div>
+</body>
+
+<!-- <script src="../node_modules/dat.gui/build/dat.gui.js"></script> -->
+<script src="../js/dat.gui.min.js"></script>
+
+<script type="module" src="../js/main.js"></script>
+
+</html>

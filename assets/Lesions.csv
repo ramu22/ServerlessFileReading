@@ -1,0 +1,41 @@
+St. Jude Medical. File Revision : 5.2
+Export Data Element : Lesions
+Export from Study : study_dwsG701994_2018_06_22_13_35_45
+Export from Segment : LIPV
+Export User Comments : Add comments here
+Export files Stored in Dir : /var/STJ/Clinical/systemStudy/study_dwsG701994_2018_06_22_13_35_45/export/2018_06_22_17_10_10/
+Export Start Time (h:m:s.msec) : 13:35:50.529
+Export Start Time (secs usecs) : 1529674550 529417
+Export End Time (h:m:s.msec) : 13:35:51.059
+Export End Time (secs usecs) : 1529674551 58584
+Export Duration (h:m:s.msec) : 00:00:00.529
+
+Text: Lesion index
+Type: 3DP|3DE|3DD|DIF|ENS
+   3DP: 3D lesion at an EnGuide electrode location BUT projected onto a surface, if possible
+   3DE: 3D lesion at an EnGuide electrode location
+   ENS: Surface lesion placed on an EnSite surface
+   3DD: 3D lesion imported as part of a DIF file
+   DIF: Surface lesion placed on a DIF surface
+Surface: Name of surface on which lesion is placed or projected, if any
+x,y,z: Coordinates of original/raw center of lesion in space
+xt,yt,zt: Coordinates of transformed center of lesion in space
+xw,yw,zw: Coordinates of actual center of lesion in space
+R,G,B: Lesion color values
+Diameter: Lesion diameter
+Display: 0: NOT displayed, 1: Displayed, if possible
+Visible: 0: NOT visible, 1: Visible
+
+Number of waves (columns): ,15                  
+Number of samples (rows): ,9                   
+Text,Type,Surface,x,y,z,xt,yt,zt,xw,yw,zw,Display,Visible,R,G,B,Diameter
+1,3DE,[N/A],-18.976,-115.113,349.851,-24.258,-111.244,373.670,-24.258,-111.244,373.670,0,1,0,1,0,7.000
+2,3DE,[N/A],-27.526,-99.773,347.630,-37.085,-92.470,370.542,-37.085,-92.470,370.542,0,1,0,1,0,7.000
+3,3DE,[N/A],-106.452,-48.762,475.481,-93.788,-75.211,476.121,-93.788,-75.211,476.121,0,1,1,0.5,0.5,7.000
+4,3DE,[N/A],-100.960,-51.285,462.678,-90.570,-73.771,463.510,-90.570,-73.771,463.510,0,1,1,0.5,0.5,7.000
+5,3DE,[N/A],-96.041,-53.005,450.090,-87.591,-71.257,450.198,-87.591,-71.257,450.198,0,1,1,0.5,0.5,7.000
+6,3DE,[N/A],-94.168,-54.724,452.196,-86.412,-73.867,453.202,-86.412,-73.867,453.202,0,1,1,0.5,0.5,7.000
+7,3DE,[N/A],-90.636,-53.171,436.778,-84.353,-66.170,435.665,-84.353,-66.170,435.665,0,1,1,0.5,0.5,7.000
+8,3DE,[N/A],-84.733,-57.986,428.487,-81.304,-68.480,428.613,-81.304,-68.480,428.613,0,1,1,0.5,0.5,7.000
+9,3DE,[N/A],-85.003,-60.086,415.199,-84.181,-66.938,415.020,-84.181,-66.938,415.020,0,1,1,0.5,0.5,7.000
+EOF

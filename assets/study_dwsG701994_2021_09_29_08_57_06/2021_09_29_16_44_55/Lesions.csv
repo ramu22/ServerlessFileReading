@@ -1,0 +1,36 @@
+St. Jude Medical. File Revision : 5.2
+Export Data Element : Lesions
+Export from Study : study_dwsG701994_2021_09_29_08_57_06
+Export from Segment : Seg 00011
+Export User Comments : Add comments here
+Export files Stored in Dir : /var/STJ/Clinical/systemStudy/study_dwsG701994_2021_09_29_08_57_06/export/2021_09_29_16_44_55/
+Export Start Time (h:m:s.msec) : 11:12:23.465
+Export Start Time (secs usecs) : 1632913943 465410
+Export End Time (h:m:s.msec) : 11:12:23.615
+Export End Time (secs usecs) : 1632913943 615410
+Export Duration (h:m:s.msec) : 00:00:00.150
+
+Text: Lesion index
+Type: 3DP|3DE|3DD|DIF|ENS
+   3DP: 3D lesion at an EnGuide electrode location BUT projected onto a surface, if possible
+   3DE: 3D lesion at an EnGuide electrode location
+   ENS: Surface lesion placed on an EnSite surface
+   3DD: 3D lesion imported as part of a DIF file
+   DIF: Surface lesion placed on a DIF surface
+Surface: Name of surface on which lesion is placed or projected, if any
+x,y,z: Coordinates of original/raw center of lesion in space
+xt,yt,zt: Coordinates of transformed center of lesion in space
+xw,yw,zw: Coordinates of actual center of lesion in space
+R,G,B: Lesion color values
+Diameter: Lesion diameter
+Display: 0: NOT displayed, 1: Displayed, if possible
+Visible: 0: NOT visible, 1: Visible
+
+Number of waves (columns): ,15                  
+Number of samples (rows): ,4                   
+Text,Type,Surface,x,y,z,xt,yt,zt,xw,yw,zw,Display,Visible,R,G,B,Diameter
+1,3DE,[N/A],103.194,15.507,248.197,111.925,-1.235,253.098,111.925,-1.235,253.098,0,1,0,1,0,3.000
+2,3DE,[N/A],83.363,14.888,236.377,84.420,7.395,233.630,84.420,7.395,233.630,0,1,0,0.75,1,3.000
+3,3DE,[N/A],98.433,35.987,261.709,102.694,26.766,261.496,102.694,26.766,261.496,1,1,0,0.75,1,5.000
+4,3DE,[N/A],96.809,20.773,250.975,102.730,6.243,253.676,102.730,6.243,253.676,0,1,0,1,0,3.000
+EOF
